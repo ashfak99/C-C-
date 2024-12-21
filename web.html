@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title >
+            Web Page
+        </Title>
+        <style>
+            .heading{
+                color:lightblue;
+                font-family: cursive;
+                background-color: rgb(249, 69, 9);
+            }
+            #Ashfak{
+                padding: 40px;
+                background-color: lightblue;
+                color: red;
+                text-align: center;
+            }
+            #Alam{
+                padding: 50px;
+                background-color: lightgreen;
+                text-align: center;
+            }
+        </style>
+        <script>
+            function viewdate()
+            {
+                var x=document.getElementById("dob").value;
+                document,getElementById("demo"),innerHTML=x;
+            }
+        </script>
+    </head>
+    <body >
+       <!---- <link rel="stylesheet" href="web3.css">---->
+        <h1 style="background-color:coral">
+            This is my first Web
+        </h1>
+        <h2 style="background-color:aqua">
+            Ashfak Alam
+        </h2><br>
+        <p> Fill form </p>
+        <a href="web2.html">web2</a><br>
+        <a href="google.html">Google</a><br><br>
+    </body>
+
+</html><!DOCTYPE html>  
+<html>  
+<head>  
+ <title>Form in HTML</title>  
+</head>  
+<body>  
+    <h2>Registration form</h2>  
+   <form>  
+    <fieldset>  
+       <legend>User personal information</legend>  
+       <label>Enter your full name</label><br>  
+       <input type="text" name="name"><br>  
+        <label>Enter your email</label><br>  
+        <input type="email" name="email"><br>  
+        <label>Enter your password</label><br>  
+        <input type="password" name="pass"><br>  
+        <label>confirm your password</label><br>  
+        <input type="password" name="pass"><br>  
+        <br><label>Enter your gender</label><br>  
+        <input type="radio" id="gender" name="gender" value="male"/>Male  <br>  
+        <input type="radio" id="gender" name="gender" value="female"/>Female <br/>    
+        <input type="radio" id="gender" name="gender" value="others"/>others <br/>   
+         <br>Enter your Address:<br>  
+        <textarea></textarea><br>  
+        <input type="submit" value="sign-up">  
+    </fieldset>  
+ </form>  
+</body>  
+</html>  
+
+<!DOCTYPE html>
+<html>
+<body>
+	<h3>Input "color" types:</h3>
+ <form>
+	Pick your Favorite color: <br><br>
+	<input type="color" name="upclick" value="#a52a2a"> Up-click<br><br>
+	<input type="color" name="downclick" value="#a5f4dc"> Down-click
+  </form>
+  <p><strong>Note:</strong>The default value of "color" type is #000000 (black). It only supports color value in hexadecimal format.</p>
+  <br><br>
+  <h2>Class attribute with javascript</h2>
+  <p>Click the button, to hide all element with the class name</p><br>
+  <button onclick="myFunction()">Hide element</button>
+  <h1 class="heading">Ashfak Alam</h1>
+  <h2 class="heading">Ashfak Alam</h2>
+  <h3 class="heading">Ashfak Alam</h3>
+  <h4 class="heading">Ashfak Alam</h4>
+  <h5 class="heading">Ashfak Alam</h5>
+  <h6 class="heading">Ashfak Alam</h6>
+  <script>
+    function myFunction(){
+        var x=document.getElementsByClassName("heading");
+        for(var i=0;i<x.length;i++){
+            x[i].style.display="none";
+        }
+    }
+  </script><br><br>
+  <p>
+    Use CSS to style on element with the id:
+  </p>
+  <h1 id="Ashfak">Ashfak</h1>
+  <h1 id="Alam">Alam</h1><br><br><br>
+  Employee Name:<input type="text" placeholder="Your Good Name"><br><br>
+  Date of Joining:
+  <input type="date" id="dob">
+  <br>
+  <button onclick="viewdate()">Submit</button><br>
+  <h2 id="demo"></h2>
+ </body>
+</html>
+
+ 
+
+
+
